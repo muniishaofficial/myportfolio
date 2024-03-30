@@ -1,0 +1,49 @@
+.contact {
+  flex-direction: column;
+}
+.contact-info ul{
+  position: relative;
+  margin: 20px 0px;
+  padding-left: 0px;
+}
+.contact-info ul li{
+   position: relative;
+   list-style: none;
+   display: flex;
+   align-items: flex-start;
+   margin: 20px 0;
+   cursor: pointer;
+   align-items: flex-start;
+   justify-content: center;
+}
+.contact-info ul li span:nth-child(1){
+   width:30px;
+   min-width: 30px;
+} 
+.contact-info ul li span:nth-child(1) img{
+   max-width: 100%;
+   filter: invert(1);
+} 
+.contact-info ul li span:nth-child(2){
+   margin-left: 10px;
+   font-weight: 300;
+} 
+.contact-info .social-icons {
+  display: flex;
+  justify-content: center;
+}
+.contact-info .social-icons ul{
+  position: relative;
+  display: flex;
+}
+.contact-info .social-icons ul li{
+  list-style: none;
+  margin-right: 15px;
+}
+.contact-info .social-icons ul li a{
+  text-decoration: none;
+}
+.contact-info .social-icons ul li a img{
+  filter: invert(1);
+  width: 20px;
+}
